@@ -8,7 +8,6 @@ function About() {
     <div className='px-6'>
       <AboutBanner />
       <WhyChoose />
-      <Team />
     </div>
   )
 }
