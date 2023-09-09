@@ -33,7 +33,7 @@ function Contact() {
           <p className='text-xl text-gray-900 mb-6'>780-707-2835</p>
 
           <h3 className='text-2xl text-gray-900 font-semibold mb-2'>Email</h3>
-          <p className='text-xl text-gray-900 mb-6'>zuhori@ualberta.ca</p>
+          <p className='text-xl text-gray-900 mb-6'>contact@ssconsult.ca</p>
         </div>
         <div className='bg-gray-200 px-6 py-12 rounded-xl shadow-xl'>
         <form ref={form} onSubmit={sendEmail} className='w-full'>

@@ -4,7 +4,7 @@ import Circular from './Circular'
 
 function Career() {
   return (
-    <div className='px-8'>
+    <div className=''>
         <CareerBanner />
         <Circular />
     </div>
