@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { BsFacebook, BsLinkedin } from 'react-icons/bs';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
 function Contact() {
   const form = useRef();
@@ -9,12 +11,12 @@ function Contact() {
 
     emailjs.sendForm('service_3qi8fl9', 'template_xwrtk3j', form.current, 'Cs-CMHdNv8wADgZ6K')
       .then((result) => {
-          console.log(result.text);
-          console.log("message sent");
-          alert("Message Sent");
-          
+        console.log(result.text);
+        console.log("message sent");
+        alert("Message Sent");
+
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
 
@@ -34,12 +36,35 @@ function Contact() {
 
           <h3 className='text-2xl text-gray-900 font-semibold mb-2'>Email</h3>
           <p className='text-xl text-gray-900 mb-6'>contact@ssconsult.ca</p>
+          <div className=''>
+            <a href="https://www.facebook.com/profile.php?id=100095049597399" target='_blank'>
+              <div className="avatar mt-6 text-gray-900 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center p-1'><BsFacebook size={32} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100095049597399" target='_blank' className='ml-12'>
+              <div className="avatar mt-6 text-gray-900 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center p-1'><BsFacebook size={32} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/company/96930916/admin/feed/posts/" target='_blank' className='mx-12'>
+              <div className="avatar mt-6 text-gray-900 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center'><TiSocialLinkedinCircular size={40} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
         <div className='bg-gray-200 px-6 py-12 rounded-xl shadow-xl'>
-        <form ref={form} onSubmit={sendEmail} className='w-full'>
+          <form ref={form} onSubmit={sendEmail} className='w-full'>
             <div className="form-control">
               <label className="label"><span className="label-text">Name</span></label>
-              <input type="text" name="user_name" className="input input-bordered w-full"/>
+              <input type="text" name="user_name" className="input input-bordered w-full" />
             </div>
             <div className="form-control">
               <label className="label"><span className="label-text">Email</span></label>

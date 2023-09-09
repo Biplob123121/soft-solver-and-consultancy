@@ -2,6 +2,8 @@ import React from 'react'
 import footer from '../../images/footer2.jpg';
 import { NavLink } from 'react-router-dom';
 import logo from '../../images/log2.png';
+import { BsFacebook, BsLinkedin } from 'react-icons/bs';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
 
 
 function Footer() {
@@ -13,6 +15,29 @@ function Footer() {
         <div className='flex flex-col justify-center'>
           <h1 className='text-2xl font-bold uppercase'>Soft Solver and Consultancy</h1>
           <p className='text-lg font-semibold'>Software Company in Canada</p>
+          <div className=''>
+            <a href="https://www.facebook.com/profile.php?id=100095049597399" target='_blank'>
+              <div className="avatar mt-6 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center p-1'><BsFacebook size={32} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100095049597399" target='_blank' className='ml-12'>
+              <div className="avatar mt-6 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center p-1'><BsFacebook size={32} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/company/96930916/admin/feed/posts/" target='_blank' className='mx-12'>
+              <div className="avatar mt-6 hover:text-primary">
+                <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  <h3 className='text-center'><TiSocialLinkedinCircular size={40} className='text-center' /></h3>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
         <div>
           <h1 className='text-2xl font-semibold'>Get Free Estimation</h1>

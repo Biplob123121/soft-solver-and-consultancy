@@ -17,7 +17,7 @@ function Services() {
                     </div>
                     <h2 className='text-2xl font-bold my-2'>Web Development</h2>
                     <p className='text-lg'>Develop robust online applications to suit your business needs and cater to your clients faithfully.</p>
-                    <NavLink to={'/web-development'} className="mt-6"><button className='w-5/6 mt-6 bg-gradient-to-tr from-primary to-secondary px-8 py-3 rounded-lg hover:from-orange-500 hover:to-red-500 font-bold uppercase text-gray-500'>View Details</button></NavLink>
+                    <NavLink to={'/web-development'} className="mt-6"><button className='w-full mt-6 bg-gradient-to-tr from-primary to-secondary px-8 py-3 rounded-lg hover:from-orange-500 hover:to-red-500 font-bold uppercase text-gray-500'>View Details</button></NavLink>
                 </div>
                 <div className='bg-gray-200 p-4 text-gray-950 rounded-xl  hover:shadow-xl'>
                     <div className='flex justify-center'>
