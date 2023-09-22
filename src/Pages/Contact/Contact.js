@@ -35,7 +35,7 @@ function Contact() {
           <p className='text-xl text-gray-900 mb-6'>780-707-2835</p>
 
           <h3 className='text-2xl text-gray-900 font-semibold mb-2'>Email</h3>
-          <p className='text-xl text-gray-900 mb-6'>contact@ssconsult.ca</p>
+          <p className='text-xl text-gray-900 mb-6'>zuhori@ualberta.ca</p>
           <div className=''>
             <a href="https://www.facebook.com/profile.php?id=100095049597399" target='_blank'>
               <div className="avatar mt-6 text-gray-900 hover:text-primary">

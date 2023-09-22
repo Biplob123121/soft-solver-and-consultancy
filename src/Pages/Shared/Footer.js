@@ -43,7 +43,7 @@ function Footer() {
           <h1 className='text-2xl font-semibold'>Get Free Estimation</h1>
           <ul>
             <li className='text-lg pt-6 hover:text-primary'>Address: 10408 92 Street NW, Edmonton, AB, T5H1T7, Canada</li>
-            <li className='text-lg py-1 hover:text-primary'>Email : contact@ssconsult.ca</li>
+            <li className='text-lg py-1 hover:text-primary'>Email : zuhori@ualberta.ca</li>
             <li className='text-lg py-1 hover:text-primary'>Phone: 780-707-2835</li>
           </ul>
         </div>
